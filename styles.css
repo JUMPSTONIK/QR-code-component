@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    min-width: 375px;
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 320px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 15px 15px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+p, h3{
+    padding: 0 15px 0;
+}
+
+h3{
+    text-align: center;
+    font-size: 2rem;
+}
+
+p{
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
